@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-LIBXMP_VERSION = 92313f6f525a8510a2492df4266abcf8f0b45834
+LIBXMP_VERSION = 2b8fb409322c587fa4b6c72c0589947c8ed4aed2
 LIBXMP_SITE = https://github.com/cmatsuoka/libxmp.git
 LIBXMP_SITE_METHOD = git
 LIBXMP_LICENSE = GPL-2.0

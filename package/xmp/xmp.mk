@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-XMP_VERSION = 1bd65c89248e464ad679fff8b1e488d52b4306ce
+XMP_VERSION = 7dc7d5a84a3544539fdcb66606e4554e416cee87
 XMP_SITE = https://github.com/cmatsuoka/xmp-cli.git
 XMP_SITE_METHOD = git
 XMP_LICENSE = GPL-2.0
