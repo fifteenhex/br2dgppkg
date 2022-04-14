@@ -10,7 +10,7 @@ XMP_SITE_METHOD = git
 XMP_LICENSE = GPL-2.0
 XMP_LICENSE_FILES = COPYING
 XMP_AUTORECONF = YES
-XMP_DEPENDS = libxmp
+XMP_DEPENDENCIES = host-pkgconf libxmp
 
 $(eval $(autotools-package))
 
