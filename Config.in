@@ -1,3 +1,4 @@
 source "$BR2_EXTERNAL_DGPPKG_PATH/package/libxmp/Config.in"
 source "$BR2_EXTERNAL_DGPPKG_PATH/package/xmp/Config.in"
 source "$BR2_EXTERNAL_DGPPKG_PATH/package/mhz/Config.in"
+source "$BR2_EXTERNAL_DGPPKG_PATH/package/gt/Config.in"

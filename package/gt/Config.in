@@ -1,0 +1,5 @@
+config BR2_PACKAGE_GT
+	bool "gt"
+	select BR2_PACKAGE_LIBUSBGX
+	help
+	  gadget-tool for configuring USB gadgets
