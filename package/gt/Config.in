@@ -1,5 +1,6 @@
 config BR2_PACKAGE_GT
 	bool "gt"
+	depends on BR2_TOOLCHAIN_BUILDROOT_CXX
 	select BR2_PACKAGE_LIBUSBGX
 	help
 	  gadget-tool for configuring USB gadgets
