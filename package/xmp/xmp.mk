@@ -4,9 +4,8 @@
 #
 ################################################################################
 
-XMP_VERSION = xmp-4.3.0
-XMP_SITE = https://github.com/cmatsuoka/xmp-cli.git
-XMP_SITE_METHOD = git
+XMP_VERSION = 4.3.0
+XMP_SITE = $(call github,cmatsuoka,xmp-cli,xmp-$(XMP_VERSION))
 XMP_LICENSE = GPL-2.0
 XMP_LICENSE_FILES = COPYING
 XMP_AUTORECONF = YES
