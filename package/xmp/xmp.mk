@@ -13,6 +13,11 @@ XMP_AUTORECONF = YES
 XMP_DEPENDENCIES = host-pkgconf libxmp
 XMP_CONF_OPTS = --disable-oss
 
+# xmp-cli's configure link test for libxmp calls xmp_set_player() without
+# including its header. Modern GCC treats the resulting implicit declaration as
+# an error, so the test (and the build) fails; relax that to a warning.
+XMP_CONF_ENV = CFLAGS="$(TARGET_CFLAGS) -Wno-implicit-function-declaration"
+
 ifeq ($(BR2_PACKAGE_ALSA_LIB),y)
 XMP_DEPENDENCIES += alsa-lib
 XMP_CONF_OPTS += --enable-alsa
