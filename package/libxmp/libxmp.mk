@@ -4,13 +4,11 @@
 #
 ################################################################################
 
-LIBXMP_VERSION = 2b8fb409322c587fa4b6c72c0589947c8ed4aed2
-LIBXMP_SITE = https://github.com/cmatsuoka/libxmp.git
-LIBXMP_SITE_METHOD = git
-LIBXMP_LICENSE = GPL-2.0
-LIBXMP_LICENSE_FILES = COPYING
-LIBXMP_AUTORECONF = YES
+LIBXMP_VERSION = 4.7.2
+LIBXMP_SITE = https://github.com/libxmp/libxmp/releases/download/libxmp-$(LIBXMP_VERSION)
+LIBXMP_SOURCE = libxmp-$(LIBXMP_VERSION).tar.gz
+LIBXMP_LICENSE = MIT
+LIBXMP_LICENSE_FILES = docs/COPYING
 LIBXMP_INSTALL_STAGING = YES
 
 $(eval $(autotools-package))
-
